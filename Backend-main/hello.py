@@ -30,4 +30,4 @@ def greetings():
     return render_template('namesake.html', name=request.args['name'])
 
 if __name__ == "__main__":
-    hello.run(debug=True, host='0.0.0.0', port=8000)
+    app.run(debug=True, host='0.0.0.0', port=8000)
